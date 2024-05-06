@@ -1,4 +1,4 @@
-let plus = document.querySelectorAll("#id")
+let plus = document.querySelectorAll("#plus")
 let p = document.querySelectorAll("p")
 
 function display() {
