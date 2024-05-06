@@ -1,4 +1,4 @@
-let plus = document.querySelectorAll("[name='plus']")
+let plus = document.querySelectorAll("#id")
 let p = document.querySelectorAll("p")
 
 function display() {
