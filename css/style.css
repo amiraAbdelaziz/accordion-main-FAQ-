@@ -1,0 +1,79 @@
+body {
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+hr {
+    color: #7c7c7c80;
+}
+
+.card {
+    background-color: white;
+    width: 40%;
+    margin: 210px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.head h1 {
+    margin-left: 15px;
+    margin-top: 8px;
+    color: hsl(292, 42%, 14%);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.head img {
+    width: 30px;
+}
+
+.qu {
+    padding: 15px;
+}
+
+.qu p {
+    color: hsl(292, 42%, 14%);
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.qu p:hover {
+    color: hsl(292, 16%, 49%);
+    cursor: pointer;
+}
+
+.pra img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.qu span {
+    color: hsl(292, 16%, 49%);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
+@media (max-Width: 375px) {
+    .card {
+        width: 90%;
+    }
+    .head h1 {
+        font-size: 30px;
+    }
+    
+    .head img {
+        width: 20px;
+    }
+    p {
+        width: 70%;
+        font-size: 14px !important;
+        font-weight: 900;
+    }
+    .qu img {
+        width: 25px;
+        display: block;
+    }
+}
