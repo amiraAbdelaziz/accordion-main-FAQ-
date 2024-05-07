@@ -1,6 +1,15 @@
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
 body {
+    -webkit-text-size-adjust: 100%;
     background-image: url(/assets/images/background-pattern-desktop.svg);
     background-repeat: no-repeat;
+}
+
+th {
+    text-align: -webkit-match-parent;
 }
 
 hr {
